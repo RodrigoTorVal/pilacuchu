@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Enchufe WiFi</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="data:,">
+		<style>html{font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}
+		h1{color: #0F3376; padding: 2vh;}p{font-size: 1.5rem;}.button{display: inline-block; background-color: #e7bd3b; border: none; 
+		border-radius: 4px; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
+		.button2{background-color: #4286f4;}</style>
+	</head>
+	<body>
+		<h1>Enchufe WiFi</h1> 
+		<p>Estado: <strong>ON</strong></p>
+		<p><a href="/?led=on"><button class="button">ON</button></a><a href="/?led=off"><button class="button button2">OFF</button></a></p>
+		<h1>Programar encendido</h1>
+		<form action="/">
+		&nbsp Retardo: <input type="text" name="hrs" size=1>h <input type="text" name="mns" size=1>m <input type="text" name="scs" size=1>s<br>
+		Duración: <input type="text" name="hrs" size=1>h <input type="text" name="mns" size=1>m <input type="text" name="scs" size=1>s<br>
+		<p><input type="checkbox" name="repe" value="ON">Repetición</p>
+		<input type="checkbox" name="L" value="ON">Lunes<br>
+		<input type="checkbox" name="M" value="ON">Martes<br>
+		<input type="checkbox" name="X" value="ON">Miércoles<br>
+		<input type="checkbox" name="J" value="ON">Jueves<br>
+		<input type="checkbox" name="V" value="ON">Viernes<br>
+		<input type="checkbox" name="S" value="ON">Sábado<br>
+		<input type="checkbox" name="D" value="ON">Domingo<br><br>
+		<input type="submit" value="Programar">
+		</form>
+	</body>
+</html>
