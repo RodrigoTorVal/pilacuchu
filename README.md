@@ -5,7 +5,6 @@
 <p></p>
 <h1>Este es el contenido:</h1>
 <p>rythm-IoT: análisis rítmico de pulsos para su uso en IoT (encender luces, abrir la puerta de un edificio a través del telefonillo...)</p>
-<p>UOMatchBot: bot de emparejamiento universitario</p>
 <p>resfuncfwhm.py: un analizador de picos de un espectro obtenido mediante Laser-induced breakdown spectroscopy (LIBS)</p>
 <p>dUOgramBot: bot de gestión del dUO (diario de la Universidad de Oviedo) para Telegram</p>
 <p>TGbotBase: base fundamental para crear un bot en Telegram</p>
